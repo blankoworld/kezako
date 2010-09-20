@@ -2,7 +2,7 @@ Liste des tâches à faire (TODO LIST)
 ------------------------------------
 
 - FAIT | lire les questions dans une variable - étape 1
-- afficher les questions aléatoirement
+- FAIT | afficher les questions aléatoirement
 - lire les questions dans un fichier texte - étape 2
 - lire les questions dans une classe qui lit le fichier texte - étape 3
 - vérifier que la question n'a pas déjà été posée
