@@ -6,6 +6,7 @@ import random
 # Déclaration des variables
 questions = []
 longueur_questions = 0
+fichier = "questions.txt"
 
 # Deboggage
 deboggage = False
@@ -18,14 +19,20 @@ def debug(texte):
 
 # Fonctions
 
+# Lecture du fichier
+f = open(fichier, "r")
+
+debug("Info : Fichier ouvert.")
+
 # Ajout des questions
-questions.append("De quelle couleur est le cheval blanc d'Henri IV ?")
-questions.append("Comment se nomme Albert ?")
-questions.append("Pourquoi la vie ?")
-questions.append("Où as-tu trouvé ce programme ?")
-questions.append("Combien de questions peut contenir ce programme ?")
+questions = f.readlines()
 
 debug("Info : Questions ajoutées.")
+
+# Fermeture du fichier
+f.close()
+
+debug("Info : Fichier fermé.")
 
 # Lecture des questions
 longueur_questions = len(questions)
@@ -38,4 +45,4 @@ nbr_aleatoire = random.randint(0,longueur_questions - 1)
 debug("Info : Nombre aléatoire choisi %d." % nbr_aleatoire)
 
 # Affichage de la question
-print("Question : %s" % questions[nbr_aleatoire])
+print("Question %d : %s" % (nbr_aleatoire, questions[nbr_aleatoire]))
