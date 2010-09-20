@@ -1,0 +1,10 @@
+Liste des tâches à faire (TODO LIST)
+------------------------------------
+
+- lire les questions dans une variable - étape 1
+- afficher les questions aléatoirement
+- lire les questions dans un fichier texte - étape 2
+- lire les questions dans une classe qui lit le fichier texte - étape 3
+- vérifier que la question n'a pas déjà été posée
+- proposer plusieurs "sujets" de questions (suivant plusieurs fichiers)
+- afficher un menu de sélection
