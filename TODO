@@ -12,3 +12,10 @@ Liste des tâches à faire (TODO LIST)
 - afficher un menu de sélection
 - permettre de poser des questions de plusieurs chapitres
 - permettre de poser des questions de plusieurs matières
+- faire une classe MENU afin de permettre l'utilisation de plusieurs menus dans l'application
+  - avec une fonction pour donner les éléments du menu
+  - et les fonctions appelées pour chaque éléments (ou l'action effectuée)
+- permettre l'affichage de plusieurs questions d'un coup
+- quand on veut afficher plusieurs questions à la suite, demander un nombre
+- uniformiser les types de fichiers lus pour le programme => trouver une extension de fichier utile, comme txt, texte, kezako, etc.
+- ajouter les réponses dans les fichiers, les séparer par : ###
