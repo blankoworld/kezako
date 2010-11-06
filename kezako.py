@@ -19,7 +19,8 @@ from fichier import Fichier
 # Déclaration des variables
 questions = []
 longueur_questions = 0
-source = "questions.txt"
+source = 'questions.txt'
+separateur = '###'
 
 # Deboggage
 deboggage = False
@@ -53,4 +54,4 @@ nbr_aleatoire = random.randint(0,longueur_questions - 1)
 debug("Info : Nombre aléatoire choisi %d." % nbr_aleatoire)
 
 # Affichage de la question
-print("Question %d : %s" % (nbr_aleatoire, questions[nbr_aleatoire].split('###')[0]))
+print("Question %d : %s" % (nbr_aleatoire, questions[nbr_aleatoire].split(separateur)[0]))
