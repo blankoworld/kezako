@@ -16,14 +16,19 @@
 import random
 from time import sleep as pause
 from fichier import Fichier
+from configuration import Preferences
 
 # Déclaration des variables
+# Récupération dans le fichier de préférences
+pref = Preferences()
+source = pref.source                  # Fichier où trouver les questions/réponses
+separateur = pref.separation          # Séparateur contenu dans le fichier source
+nbre_questions = pref.nbre_quest_pos  # Nombre de questions posées
+temps_pause = pref.tps_pause          # Temps de pause entre chaque questions
+#+ (en secondes)
+
 questions = []            # Les questions initiales
 longueur_questions = 0    # Nombre de questions dans KEZAKO
-source = 'questions.txt'  # Fichier où trouver les questions/réponses
-separateur = '###'        # Séparateur contenu dans le fichier source
-nbre_questions = 3        # Nombre de questions posées
-temps_pause = 2           # Temps de pause entre chaque question (en secondes)
 lotterie = []             # Les numéros des questions non-posées
 tirage = []               # Liste des numéros tirés
 reponses = []             # Ensemble des réponses correspondantes
@@ -41,7 +46,6 @@ def debug(texte):
     print(str(texte))
 
 # Début du programme
-
 fichier = Fichier(source)
 
 # Ajout des questions

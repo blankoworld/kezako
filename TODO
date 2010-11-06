@@ -20,5 +20,5 @@ Liste des tâches à faire (TODO LIST)
 - uniformiser les types de fichiers lus pour le programme => trouver une extension de fichier utile, comme txt, texte, kezako, etc.
 - FAIT | ajouter les réponses dans les fichiers, les séparer par : ###
 - FAIT | Donner les réponses aux questions à la fin
-- ajouter un fichier de configuration pour les préférences de bases (par exemple l'extension de fichiers) à l'aide de configparser (inclus dans python)
+- FAIT | ajouter un fichier de configuration pour les préférences de bases (par exemple l'extension de fichiers) à l'aide de configparser (inclus dans python)
 - créer des fichiers de tests pour tester le programme. Cf. le module unittest et PyUnit
