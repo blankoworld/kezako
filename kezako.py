@@ -25,33 +25,25 @@ separateur = '###'
 # Deboggage
 deboggage = False
 
+# Fonctions
 # Fonction de deboggage
 def debug(texte):
   """Affiche la chaîne de caractère reçue si le programme est en mode deboggage"""
   if deboggage == True:
     print(str(texte))
 
-# Fonctions
-# Aucune actuellement
+# Début du programme
 
 fichier = Fichier(source)
-
-debug("Info : Fichier ouvert.")
 
 # Ajout des questions
 questions = fichier.contenu
 
-debug("Info : Questions ajoutées.")
-
 # Lecture des questions
 longueur_questions = len(questions)
 
-debug("Info : Longueur du tableau : %s éléments" % longueur_questions)
-
 # Choix aléatoire d'une question
 nbr_aleatoire = random.randint(0,longueur_questions - 1)
-
-debug("Info : Nombre aléatoire choisi %d." % nbr_aleatoire)
 
 # Affichage de la question
 print("Question %d : %s" % (nbr_aleatoire, questions[nbr_aleatoire].split(separateur)[0]))
