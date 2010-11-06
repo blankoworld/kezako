@@ -6,6 +6,16 @@
 # Classe qui permet(tra) de lire le contenu d'un fichier en vue de l'utiliser
 #+ pour le logiciel KEZAKO http://git.dossmann.net/?p=projets/kezako;a=summary
 
+# Copyright (C) 2010 DOSSMANN Olivier
+# Auteur : DOSSMANN Olivier
+# Courriel : olivier@dossmann.net
+#
+# Ce logiciel est strictement réservé aux étudiants de la classe de 
+#+ terminale Bac Pro du lycée Jean Geiler à Strasbourg pour l'année
+#+ 2010/2011 dans le cadre de leurs études.
+#
+# La licence de ce logiciel évoluera a posteriori.
+
 from os import path
 
 class Fichier:
