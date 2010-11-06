@@ -1,6 +1,18 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# kezako.py
+
+# Copyright (C) 2010 DOSSMANN Olivier
+# Auteur : DOSSMANN Olivier
+# Courriel : olivier@dossmann.net
+#
+# Ce logiciel est strictement réservé aux étudiants de la classe de 
+#+ terminale Bac Pro du lycée Jean Geiler à Strasbourg pour l'année
+#+ 2010/2011 dans le cadre de leurs études.
+#
+# La licence de ce logiciel évoluera a posteriori.
+
 import random
 
 # Déclaration des variables
