@@ -5,7 +5,7 @@ Liste des tâches à faire (TODO LIST)
 - FAIT | afficher les questions aléatoirement
 - FAIT | lire les questions dans un fichier texte - étape 2
 - FAIT | lire les questions dans une classe qui lit le fichier texte - étape 3
-- vérifier que la question n'a pas déjà été posée
+- FAIT | vérifier que la question n'a pas déjà été posée
 - proposer plusieurs "sujets" de questions (suivant plusieurs fichiers)
   - chaque dossier est UNE matière
   - dans chaque dossier se trouve des questions portant sur UN chapitre
