@@ -53,4 +53,4 @@ nbr_aleatoire = random.randint(0,longueur_questions - 1)
 debug("Info : Nombre aléatoire choisi %d." % nbr_aleatoire)
 
 # Affichage de la question
-print("Question %d : %s" % (nbr_aleatoire, questions[nbr_aleatoire]))
+print("Question %d : %s" % (nbr_aleatoire, questions[nbr_aleatoire].split('###')[0]))

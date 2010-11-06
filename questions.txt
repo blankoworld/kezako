@@ -1,6 +1,6 @@
-De quelle couleur est le cheval blanc d'Henri IV ?
-Comment se nomme Albert ?
-Pourquoi la vie ?
-Où as-tu trouvé ce programme ?
-Combien de questions peut contenir ce programme ?
-Le programme fonctionne-t-il selon vos attentes ?
+De quelle couleur est le cheval blanc d'Henri IV ?###Blanc
+Comment se nomme Albert ?###Albert
+Pourquoi la vie ?###Parce que !
+Où as-tu trouvé ce programme ?###Quelque part
+Combien de questions peut contenir ce programme ?###Autant que la lecture d'un fichier le permet
+Le programme fonctionne-t-il selon vos attentes ?###Sûrement
