@@ -14,11 +14,12 @@
 # La licence de ce logiciel évoluera a posteriori.
 
 import random
+from fichier import Fichier
 
 # Déclaration des variables
 questions = []
 longueur_questions = 0
-fichier = "questions.txt"
+source = "questions.txt"
 
 # Deboggage
 deboggage = False
@@ -30,21 +31,16 @@ def debug(texte):
     print(str(texte))
 
 # Fonctions
+# Aucune actuellement
 
-# Lecture du fichier
-f = open(fichier, "r")
+fichier = Fichier(source)
 
 debug("Info : Fichier ouvert.")
 
 # Ajout des questions
-questions = f.readlines()
+questions = fichier.contenu
 
 debug("Info : Questions ajoutées.")
-
-# Fermeture du fichier
-f.close()
-
-debug("Info : Fichier fermé.")
 
 # Lecture des questions
 longueur_questions = len(questions)

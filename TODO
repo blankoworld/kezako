@@ -4,7 +4,7 @@ Liste des tâches à faire (TODO LIST)
 - FAIT | lire les questions dans une variable - étape 1
 - FAIT | afficher les questions aléatoirement
 - FAIT | lire les questions dans un fichier texte - étape 2
-- lire les questions dans une classe qui lit le fichier texte - étape 3
+- FAIT | lire les questions dans une classe qui lit le fichier texte - étape 3
 - vérifier que la question n'a pas déjà été posée
 - proposer plusieurs "sujets" de questions (suivant plusieurs fichiers)
   - chaque dossier est UNE matière
@@ -19,3 +19,5 @@ Liste des tâches à faire (TODO LIST)
 - quand on veut afficher plusieurs questions à la suite, demander un nombre
 - uniformiser les types de fichiers lus pour le programme => trouver une extension de fichier utile, comme txt, texte, kezako, etc.
 - ajouter les réponses dans les fichiers, les séparer par : ###
+- ajouter un fichier de configuration pour les préférences de bases (par exemple l'extension de fichiers) à l'aide de configparser (inclus dans python)
+
