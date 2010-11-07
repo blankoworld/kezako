@@ -100,3 +100,9 @@ print(" REPONSES ".center(80, '='))
 for nbre,reponse in zip(tirage,reponses):
   print("Question {} : {}".format(nbre, reponse.replace('\n', '')))
 
+# Séparation avec la suite du programme
+print("".center(80, '-'))
+
+# Attente d'interaction avec l'utilisateur pour la fin de programme
+input("Appuie sur Entrée pour fermer le programme.")
+
