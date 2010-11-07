@@ -1,2 +1,28 @@
-Programme qui propose des questions
+  ######################
+ ## PROGRAMME KEZAKO ##
+######################
 
+### À PROPOS ###
+
+Ce programme est issu d'un travail effectué pour la classe de Terminale PRO 
+Compta du Lycée Jean Geiler de Strasbourg pour la promotion 2010/2011.
+
+### DESCRIPTION ###
+
+Ce programme permet de poser des questions et d'en afficher les réponses
+par la suite.
+
+### PRÉ-REQUIS ###
+
+Il faut installer Python 3.1, disponible à l'adresse suivante : 
+http://python.org/download/ .
+
+### UTILISATION ###
+
+Le programme lit actuellement le fichier 'questions.txt' qui contient les 
+questions et les réponses à utiliser.
+
+Si vous voulez ajouter d'autres questions, n'hésitez pas !
+
+Il suffit ensuite de lancer le fichier 'kezako.py' pour que le programme 
+fonctionne.
