@@ -24,4 +24,4 @@ Liste des tâches à faire (TODO LIST)
 - créer des fichiers de tests pour tester le programme. Cf. le module unittest et PyUnit
 - vérifier que le nombre de questions à poser est INFERIEUR au nombre total de questions dans le fichier
 - faire une interface graphique
-
+- Trouver une solution pour la lecture des fichiers selon plusieurs encodages : ceux sous Windows, et ceux sous Linux. Ceci afin de permettre la participation de personnes issus de différents environnements
