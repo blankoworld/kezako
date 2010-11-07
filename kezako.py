@@ -40,7 +40,7 @@ deboggage = True
 # Fonction de deboggage
 def debug(texte):
   """Affiche la chaîne de caractère reçue si le programme est en mode 
-  deboggage
+  deboggage.
   """
   if deboggage == True:
     print(str(texte))

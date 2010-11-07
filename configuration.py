@@ -21,6 +21,7 @@ class Preferences:
   nom_fichier = "preferences.cfg"
 
   def __init__(self):
+    """Constructeur"""
     try:
       # Création d'un 'parseur'
       config = configparser.ConfigParser()
@@ -55,5 +56,11 @@ class Preferences:
       self.tps_pause = 10
 
   def __str__(self):
+    """Affichage des préférences de l'utilisateur parmi :
+    - Fichier à lire pour les questions
+    - Texte de séparation entre les questions et réponses
+    - Nombre de questions à poser
+    - Temps de pause entre chaque question posée
+    """
     return "Fichier lu : {}\nTexte de séparation : {}\nNombre de questions posées : {}\nTemps de pause entre chaque question (en secondes) : {}".format(self.source, self.separation, self.nbre_quest_pos, self.tps_pause)
 
