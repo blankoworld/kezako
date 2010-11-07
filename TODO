@@ -22,3 +22,6 @@ Liste des tâches à faire (TODO LIST)
 - FAIT | Donner les réponses aux questions à la fin
 - FAIT | ajouter un fichier de configuration pour les préférences de bases (par exemple l'extension de fichiers) à l'aide de configparser (inclus dans python)
 - créer des fichiers de tests pour tester le programme. Cf. le module unittest et PyUnit
+- vérifier que le nombre de questions à poser est INFERIEUR au nombre total de questions dans le fichier
+- faire une interface graphique
+
