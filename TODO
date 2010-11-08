@@ -10,7 +10,7 @@ Liste des tâches (TODO LIST)
 - faire une classe MENU afin de permettre l'utilisation de plusieurs menus dans l'application
   - avec une fonction pour donner les éléments du menu
   - et les fonctions appelées pour chaque éléments (ou l'action effectuée)
-  - adapter le menu en fonction de la longueur des chaînes affichées (mettre un booléen pour activer/désactiver le fait que le menu s'adapte ou non à l'initialisation de la classe [constructeur])
+  - adapter le menu en fonction de la longueur des chaînes affichées (mettre un booléen pour activer/désactiver le fait que le menu s'adapte ou non à l'initialisation de la classe [constructeur]). Au mieux, couper en plusieurs morceaux (autant que nécessaires) les lignes affichées pour chaque élément du menu
 - MENU (afficher un menu de sélection)
   - afficher l'ensemble des fichiers .txt et demander celui qu'on veut utiliser
   - quand on veut afficher plusieurs questions à la suite, demander un nombre
