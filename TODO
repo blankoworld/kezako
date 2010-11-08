@@ -27,4 +27,4 @@ Liste des tâches à faire (TODO LIST)
 - Trouver une solution pour la lecture des fichiers selon plusieurs encodages : ceux sous Windows, et ceux sous Linux. Ceci afin de permettre la participation de personnes issus de différents environnements
 - FAIT | créer un ensemble de classes pour gérer les questions et réponses
 - ajouter deux fonctions afficheQuestions et afficheReponses afin de récupérer une chaîne de caractère contenant les questions et les réponses (ceci implique potentiellement deux listes supplémentaires : questions et reponses)
-
+- Ajouter la documentation via un dossier 'docs' contenant aussi les tests. Cf. doctest
