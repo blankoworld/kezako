@@ -1,30 +1,41 @@
-Liste des tâches à faire (TODO LIST)
-------------------------------------
+Liste des tâches (TODO LIST)
+============================
+
+À FAIRE :
+---------
+
+- proposer plusieurs "sujets" de questions (suivant plusieurs fichiers)
+  - chaque dossier est UNE matière
+  - dans chaque dossier se trouve des questions portant sur UN chapitre
+- faire une classe MENU afin de permettre l'utilisation de plusieurs menus dans l'application
+  - avec une fonction pour donner les éléments du menu
+  - et les fonctions appelées pour chaque éléments (ou l'action effectuée)
+  - adapter le menu en fonction de la longueur des chaînes affichées (mettre un booléen pour activer/désactiver le fait que le menu s'adapte ou non à l'initialisation de la classe [constructeur])
+- MENU (afficher un menu de sélection)
+  - afficher l'ensemble des fichiers .txt et demander celui qu'on veut utiliser
+  - quand on veut afficher plusieurs questions à la suite, demander un nombre
+  - afficher l'ensemble des matières
+  - afficher l'ensemble des chapitres de la matière
+- permettre de poser des questions de plusieurs chapitres
+- permettre de poser des questions de plusieurs matières
+- uniformiser les types de fichiers lus pour le programme => trouver une extension de fichier utile, comme txt, texte, kezako, etc. NOTE : le format .txt est plus simple pour la facilité de création sous Linux/Windows/Mac OS X
+- Trouver une solution pour la lecture des fichiers selon plusieurs encodages : ceux sous Windows, et ceux sous Linux. Ceci afin de permettre la participation de personnes issus de différents environnements
+- ajouter deux fonctions afficheQuestions et afficheReponses afin de récupérer une chaîne de caractère contenant les questions et les réponses (ceci implique potentiellement deux listes supplémentaires : questions et reponses)
+- créer des fichiers de tests pour tester le programme. Cf. le module unittest et PyUnit
+- Ajouter la documentation via un dossier 'docs' contenant aussi les tests. Cf. doctest
+- faire une interface graphique
+
+FAITES : 
+--------
 
 - FAIT | lire les questions dans une variable - étape 1
 - FAIT | afficher les questions aléatoirement
 - FAIT | lire les questions dans un fichier texte - étape 2
 - FAIT | lire les questions dans une classe qui lit le fichier texte - étape 3
 - FAIT | vérifier que la question n'a pas déjà été posée
-- proposer plusieurs "sujets" de questions (suivant plusieurs fichiers)
-  - chaque dossier est UNE matière
-  - dans chaque dossier se trouve des questions portant sur UN chapitre
-- afficher un menu de sélection
-- permettre de poser des questions de plusieurs chapitres
-- permettre de poser des questions de plusieurs matières
-- faire une classe MENU afin de permettre l'utilisation de plusieurs menus dans l'application
-  - avec une fonction pour donner les éléments du menu
-  - et les fonctions appelées pour chaque éléments (ou l'action effectuée)
 - FAIT | permettre l'affichage de plusieurs questions d'un coup
-- quand on veut afficher plusieurs questions à la suite, demander un nombre
-- uniformiser les types de fichiers lus pour le programme => trouver une extension de fichier utile, comme txt, texte, kezako, etc.
 - FAIT | ajouter les réponses dans les fichiers, les séparer par : ###
 - FAIT | Donner les réponses aux questions à la fin
 - FAIT | ajouter un fichier de configuration pour les préférences de bases (par exemple l'extension de fichiers) à l'aide de configparser (inclus dans python)
-- créer des fichiers de tests pour tester le programme. Cf. le module unittest et PyUnit
 - FAIT | vérifier que le nombre de questions à poser est INFERIEUR au nombre total de questions dans le fichier
-- faire une interface graphique
-- Trouver une solution pour la lecture des fichiers selon plusieurs encodages : ceux sous Windows, et ceux sous Linux. Ceci afin de permettre la participation de personnes issus de différents environnements
 - FAIT | créer un ensemble de classes pour gérer les questions et réponses
-- ajouter deux fonctions afficheQuestions et afficheReponses afin de récupérer une chaîne de caractère contenant les questions et les réponses (ceci implique potentiellement deux listes supplémentaires : questions et reponses)
-- Ajouter la documentation via un dossier 'docs' contenant aussi les tests. Cf. doctest
